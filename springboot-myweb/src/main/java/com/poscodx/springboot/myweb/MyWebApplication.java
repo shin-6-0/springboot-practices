@@ -14,7 +14,12 @@ public class MyWebApplication {
 		@ResponseBody
 		@RequestMapping("/hello")
 		public String hello() {
-			return "Hello World";
+			return "Hello World!!!!!!";
+		}
+		
+		@RequestMapping("/hello2")
+		public String hello2() {
+			return "hello";
 		}
 	}
 	public static void main(String[] args) {
